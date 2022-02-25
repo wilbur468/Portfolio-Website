@@ -7,6 +7,10 @@
     color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Mukta", sans-serif;
     height: 100vh;
@@ -32,9 +36,6 @@ body {
 @keyframes nav-load {
     0% {
         transform: translateY(-100%);
-    }
-    100% {
-        transform: translateY(100%);
     }
 }
 
@@ -151,6 +152,10 @@ body {
     margin-right: auto;
     padding: 20px;
     box-sizing: border-box;
+    animation: article-load 400ms ease-in calc(var(--article-load-delay) + 300ms);
+    animation-fill-mode: forwards;
+    transform: translateY(-20px);
+    opacity: 0;
 }
 
 p {
