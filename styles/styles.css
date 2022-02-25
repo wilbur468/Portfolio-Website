@@ -558,3 +558,8 @@ h1 {
         background-color: black;
     }
 }
+
+.dryers {
+    width: 80%;
+    height: auto;
+}
