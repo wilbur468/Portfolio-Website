@@ -568,3 +568,7 @@ h1 {
     width: 80%;
     height: auto;
 }
+
+a:hover {
+    color: white;
+}
