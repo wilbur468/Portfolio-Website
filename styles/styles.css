@@ -22,6 +22,12 @@ body {
     --article-load-delay: 1100ms;
 }
 
+.helloworld {
+    font-family: 'Hahmlet', serif;
+    text-align: center;
+    color: yellowgreen;
+}
+
 .navbar {
     background: #000000;
     height: 12.5vh;
@@ -124,7 +130,7 @@ body {
 .navbar-links>li>a {
     color: white;
     text-transform: uppercase;
-    font-size: 17px;
+    font-size: 18px;
     text-decoration: none;
     display: block;
 }
@@ -368,7 +374,7 @@ h1 {
 }
 
 .blogparagraph1 {
-    font-size: 15px;
+    font-size: 17px;
     position: absolute;
     top: 30%;
     left: 15%;
@@ -377,7 +383,7 @@ h1 {
 }
 
 .blogparagraph2 {
-    font-size: 15px;
+    font-size: 17px;
     position: absolute;
     top: 30%;
     left: 10%;
